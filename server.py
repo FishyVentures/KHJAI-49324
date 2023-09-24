@@ -3,7 +3,7 @@ import re
 from flask import Flask, Response, redirect, render_template, request, send_file
 
 # KHJAI-49324 camera server
-# CTF{*****_cr4ppy_*****_********}
+# CTFUA{*****_cr4ppy_*****_********}
 app = Flask(__name__)
 
 def verify_credentials(username, password):
